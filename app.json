@@ -54,6 +54,11 @@
             "required": true,
             "value": "BANDA1M"
         },
+      "MONGO_DB_URI": {
+        "description": "استضافتك من موقع https://cloud.mongodb.com ..",
+        "value": "",
+        "required": true
+        },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
