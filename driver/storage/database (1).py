@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from ZeMusic import userbot
-from ZeMusic.core.mongo import mongodb
+from driver import userbot
+from driver.storage.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
